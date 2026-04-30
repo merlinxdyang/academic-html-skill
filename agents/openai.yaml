@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic HTML PPT"
+  short_description: "Create academic offline HTML slide decks"
+  default_prompt: "使用 $academic-html-ppt 生成一个学术风格互动式网页版PPT，主题是："
