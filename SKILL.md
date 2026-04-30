@@ -55,7 +55,7 @@ Every deck must include:
 For repeatable generation, create a temporary JSON spec and run:
 
 ```bash
-python3 /Users/merlinyang/.codex/skills/academic-html-ppt/scripts/render_academic_deck.py deck.json academic_ppt_<short_topic>.html
+python3 scripts/render_academic_deck.py deck.json academic_ppt_<short_topic>.html
 ```
 
 Each non-title slide should include `kicker`, `title`, `body_html`, and optional `caption`. The script adds the title slide, optional references slide, controls, keyboard support, overview mode, progress bar, and print CSS. Use direct HTML in `body_html` with the classes below.
